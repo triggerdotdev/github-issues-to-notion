@@ -43,6 +43,17 @@ new Trigger({
         GitHub: {
           url: event.issue.html_url,
         },
+        Assignees: {
+          multi_select: event.issue.assignees.map((assignee) => ({
+            name: assignee.login,
+          })),
+        },
+        Labels: {
+          multi_select:
+            event.issue.labels?.map((label) => ({
+              name: label.name,
+            })) ?? [],
+        },
       },
       children: [
         {
