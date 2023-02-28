@@ -1,7 +1,7 @@
 {
   "name": "github-issues-to-notion",
   "version": "1.0.0",
-  "description": "A blank starter ready to run your own workflow",
+  "description": "Sync new GitHub issues to a Notion database",
   "main": "dist/index.js",
   "private": true,
   "scripts": {
