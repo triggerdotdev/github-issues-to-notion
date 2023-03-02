@@ -16,7 +16,7 @@
   "dependencies": {
     "@trigger.dev/github": "^0.1.27",
     "@trigger.dev/notion": "^0.1.26",
-    "@trigger.dev/sdk": "^0.2.20",
+    "@trigger.dev/sdk": "^0.2.21",
     "zod": "^3.20.2"
   },
   "devDependencies": {
