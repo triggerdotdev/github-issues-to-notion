@@ -14,9 +14,9 @@
   "keywords": [],
   "author": "",
   "dependencies": {
-    "@trigger.dev/github": "^0.1.26",
-    "@trigger.dev/notion": "^0.1.24",
-    "@trigger.dev/sdk": "^0.2.19",
+    "@trigger.dev/github": "^0.1.27",
+    "@trigger.dev/notion": "^0.1.26",
+    "@trigger.dev/sdk": "^0.2.20",
     "zod": "^3.20.2"
   },
   "devDependencies": {
